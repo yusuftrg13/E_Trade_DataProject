@@ -33,16 +33,7 @@ The SQL scripts in this repository cover the following technical concepts:
 
 ## 💡 Sample Queries
 
-### 1. Profit Margin Analysis
-Calculating the profit and profit margin percentage for each item, handling division by zero errors.
-```sql
-SELECT
-   ITEMCODE,
-   ITEMNAME,
-   BRAND,
-   (SALEPRICE - BUYINGPRICE) AS PROFIT,
-   ((SALEPRICE - BUYINGPRICE) * 100.0 / NULLIF(SALEPRICE, 0)) AS PROFIT_MARGIN
-FROM dbo.ITEMS
-ORDER BY PROFIT_MARGIN DESC;
+<img width="1694" height="863" alt="Ekran görüntüsü 2026-02-21 222301" src="https://github.com/user-attachments/assets/1af1b241-9d92-4b7c-a92b-a76219ca4458" />
 
-<img width="1694" height="863" alt="Ekran görüntüsü 2026-02-21 222301" src="https://github.com/user-attachments/assets/3cc220ac-c68d-4a35-a1d8-86fee59ae2ba" />
+
+
